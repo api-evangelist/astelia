@@ -1,19 +1,45 @@
 aid: astelia
 name: Astelia
-description: 'Astelia is a company surfaced as a portfolio company of index-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: security. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Astelia is an AI-native exposure management and vulnerability management
+  company whose platform helps security teams find and fix the reachable fraction of
+  their vulnerabilities. Using agentic AI and read-only integrations, Astelia maps network
+  topology, extracts the technical requirements an exploit actually needs, and correlates
+  reachability with network context to surface which vulnerabilities are truly exploitable
+  by an attacker. Rather than ranking issues on probability scores alone, it delivers
+  attack-path visualization, coverage-gap analysis, and evidence-based remediation guidance
+  tailored to each organization''s environment. Astelia is backed by Index Ventures and
+  documents its security posture in a public trust center (SOC 2 Type 2, ISO/IEC 27001:2022,
+  HIPAA, GDPR). This API Evangelist profile enriches the company as a network lead; the
+  product surface is enterprise SaaS with no public API published at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/astelia/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6980860748ed9e85e8888e80/698c90c94ff0fcf0db83377d_Exposure%20Management%20-%20Share%20image.png
 x-type: company
 x-source: index-ventures-portfolio
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Security
+- Vulnerability Management
+- Exposure Management
+- Attack Surface Management
+- Cybersecurity
+- Artificial Intelligence
+- Agentic AI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/astelia-trust-center.yml
+- type: DomainSecurity
+  url: security/astelia-domain-security.yml
+- type: Compliance
+  url: https://trust.astelia.io/
+- type: Documentation
+  url: https://docs.astelia.io
+- type: Blog
+  url: https://www.astelia.io/resources/blog
+- type: TermsOfService
+  url: https://www.astelia.io/terms
+- type: PrivacyPolicy
+  url: https://www.astelia.io/privacy-policy
+- type: SignUp
+  url: https://www.astelia.io/get-a-demo
+- type: Login
+  url: https://accounts.astelia.io/sign-in
 - type: Website
   url: http://astelia.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
