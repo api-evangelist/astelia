@@ -12,6 +12,9 @@ description: 'Astelia is an AI-native exposure management and vulnerability mana
   HIPAA, GDPR). This API Evangelist profile enriches the company as a network lead; the
   product surface is enterprise SaaS with no public API published at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/astelia/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "This API Evangelist profile enriches the company as a network lead; the product surface is enterprise SaaS with no public API published at this time."
 deliveryModel:
   model: saas
   open_source: false
